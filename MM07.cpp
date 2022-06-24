@@ -10,7 +10,12 @@
 using namespace std;
 
 int main(){
-
+    int input;
+    while (cin>>input)
+    {
+        cout<<input<<" "<<input*input<<" "<<input*input*input<<endl;
+    }
+    
 
 
 

@@ -10,6 +10,12 @@
 using namespace std;
 
 int main(){
+    double distance;
+    while (cin>>distance)
+    {
+        cout<<ceil(distance*100/23.8)<<endl;
+    }
+    
 
 
 
