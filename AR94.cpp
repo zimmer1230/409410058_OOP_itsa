@@ -25,7 +25,7 @@ int main(){
     for(int i=0;i<A.size();i++){
         print_result(A[i]-B[i]);
     }
-
+    cout<<endl;
 
 
     return 0;

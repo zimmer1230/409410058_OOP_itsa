@@ -16,10 +16,17 @@ int main(){
         int num=0;
         int pos=0;
         int str_size=str.size();
+        int sub_size=sub.size();
         while (pos<str_size)
         {
-            string target=
+            string target=str.substr(pos,sub_size);
+            //cout<<target<<endl;
+            if(target==sub)
+                num++;
+            pos++;
         }
+        cout<<num<<endl;
+
         
     }
     
